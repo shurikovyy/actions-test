@@ -1,7 +1,7 @@
 name: Test Actions (push)
 on:
   push:
-    branches: [ "pupsen_vupsen" ]
+    branches: [ "pupsen+vupsen" ]
 jobs:
   hello:
     runs-on: ubuntu-latest
